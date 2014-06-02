@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<title>jQuery TouchOrMouse Example</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="../source/jQuery.touchOrMouse.js"></script>
+</head>
+
+<body>
+<div class="example">
+	<h1>Click (or touch) here!</h1>
+	<p>This example to use touchOrMouse plugin for jQuery :)</p>
+	<p class="test"></p>
+</div>
+
+<script>
+	$('.example').touchOrMouse(function(event){
+		$('.test').text('Event Type: ' + event.type).fadeIn().delay(1200).fadeOut();
+	});
+</script>
+</body>
+</html>

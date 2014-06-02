@@ -1,0 +1,32 @@
+body {
+	background-color: #f0f0f2;
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.example {
+	width: 600px;
+	height: 200px;
+	margin: 5em auto;
+	padding: 50px;
+	background-color: #fff;
+	border-radius: 1em;
+}
+.test{
+	display: none;
+	font-size: 2em;
+	font-style: italic;
+	color: #222;
+}
+
+@media (max-width: 700px) {
+	body {
+		background-color: #fff;
+	}
+	div {
+		width: auto;
+		margin: 0 auto;
+		border-radius: 0;
+		padding: 1em;
+	}
+}
