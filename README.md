@@ -2,7 +2,7 @@
 
 jQuery plugin for attach touch or mouse events according to browser support.
 
-## use forms
+## Use forms
 
 Simple invocation
 

@@ -11,8 +11,8 @@
 			var selector,
 				handler,
 				options,
-				evtType;	
-			
+				evtType;
+
 			if ('function' === typeof arguments[0]) { // .touchOrMouse(handler)
 				handler = arguments[0];
 			}

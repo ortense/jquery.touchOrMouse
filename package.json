@@ -1,11 +1,8 @@
 {
   "name": "jquery.touchOrMouse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "jQuery Plugin for attach mouse or touch events",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ortense/jquery.touchOrMouse.git"
@@ -13,6 +10,7 @@
   "keywords": [
     "jQuery",
     "plugin",
+    "jquery-plugin",
     "touch",
     "events"
   ],
@@ -24,7 +22,7 @@
   "homepage": "https://github.com/ortense/jquery.touchOrMouse",
   "devDependencies": {
     "gulp": "^3.7.0",
-    "gulp-uglify": "^0.3.0",
+    "gulp-uglify": "0.2.1",
     "gulp-jshint": "^1.6.1",
     "gulp-zip": "^0.3.4"
   }
